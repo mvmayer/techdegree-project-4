@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  padding: 15px;
+  margin: 15px;
+  height: 200px;
+  width: 200px;
+  box-sizing: content-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lb-image {
+padding: 0;
+margin: 0;
+}
+
+/* ========== moves prev and next arrows ============*/
+.lb-nav a.lb-prev {
+  position: relative;
+  left: -150px;
+}
+
+.lb-nav a.lb-next {
+  position: relative;
+  left: 150px;
+}
+
+/* ========== moves caption and limits width =========*/
+.lb-caption {
+  display: block !important;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.searchbar {
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: solid #ddd 1px;
+  font-size: 16px;
+}
